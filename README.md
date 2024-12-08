@@ -14,11 +14,25 @@
    git clone https://github.com/novsmax/Neo4j-Bus-Routes-Data-Graph.git
    cd Neo4j-Bus-Routes-Data-Graph
    ```
-3. Установите зависимости
+3. Создайте виртуальное окружение
+   ```bash
+   python -m venv venv
+   ```
+4. Активируйте виртуальное окружение:
+   - На Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - На macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+5. Установите зависимости
    ```bash
    pip install neo4j
    ```
-4. Замените данные строки в обоих файлах, мои данные уже неактуальны.
+6. Замените данные строки в обоих файлах, мои данные уже неактуальны.
    Чтобы не мучаться с развертыванием базы данных, можно использовать [Neo4j Aura](https://neo4j.com/product/auradb/)
       ```python
       NEO4J_URI = "neo4j+s://d8bae317.databases.neo4j.io"
@@ -27,11 +41,11 @@
       ```
       Замените данные значения на свои.
    
-6. Создайте базу данных:
+7. Создайте базу данных:
    ```bash
    python create_db.py
    ```
-7. Запустите меню запросов: 
+8. Запустите меню запросов: 
    ```bash
    python queries.py
    ```
