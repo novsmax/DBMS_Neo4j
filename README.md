@@ -11,8 +11,8 @@
 1. Убедитесь, что Neo4j установлен и запущен на вашем устройстве.
 2. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/novsmax/DBMS_Neo4j.git
-   cd DBMS_Neo4j
+   git clone https://github.com/novsmax/Neo4j-Bus-Routes-Data-Graph.git
+   cd Neo4j-Bus-Routes-Data-Graph
    ```
 3. Установите зависимости
    ```bash
