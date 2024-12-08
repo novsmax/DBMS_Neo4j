@@ -18,11 +18,20 @@
    ```bash
    pip install neo4j
    ```
-4. Создайте базу данных:
+4. Замените данные строки в обоих файлах, мои данные уже неактуальны.
+   Чтобы не мучаться с развертыванием базы данных, можно использовать [Neo4j Aura](https://neo4j.com/product/auradb/)
+      ```python
+      NEO4J_URI = "neo4j+s://d8bae317.databases.neo4j.io"
+      NEO4J_USERNAME = "neo4j"
+      NEO4J_PASSWORD = "vL7F5UZ4hr7sOs6qyYq8G33mZyVzmx7IPqshk5YNc_Q"
+      ```
+      Замените данные значения на свои.
+   
+6. Создайте базу данных:
    ```bash
    python create_db.py
    ```
-5. Запустите меню запросов: 
+7. Запустите меню запросов: 
    ```bash
    python queries.py
    ```
